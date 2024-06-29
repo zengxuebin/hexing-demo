@@ -102,4 +102,10 @@ class DemoApplicationTests {
         }
     }
 
+    @Test
+    void test() {
+        String test = "absdjabsd.dbasidb.jepg";
+        System.out.println(test.substring(test.lastIndexOf(".")));
+    }
+
 }
